@@ -4,6 +4,17 @@ QuakeJS is a port of [ioquake3](http://www.ioquake3.org) to JavaScript with the 
 
 To see a live demo, check out [http://www.quakejs.com](http://www.quakejs.com).
 
+## How to use RCON and add bots?
+Set your rcon password fe. to X123X and then open console in game and use:
+```
+\rcon "X123X" status
+\rcon "X123X" map "map name"
+\rcon addbot [Major, Grunt, Sarge, Daemia, Stripe, Visor] [1-5 skill level]
+```
+More on [https://www.earthli.com/quake/server_admin.php](https://www.earthli.com/quake/server_admin.php)
+
+Gametype 0 is F4A, 4 is CTF.
+Connect via link fe: `http://www.quakejs.com/play?connect%20localhost:27960`
 
 ## Building binaries
 
